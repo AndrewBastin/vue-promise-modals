@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "demo:start": "pnpm run dev",
+    "demo:build": "pnpm run build",
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"

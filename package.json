@@ -16,6 +16,7 @@
   "types": "./dist/vue-promise-modals.es.d.ts",
   "scripts": {
     "demo": "pnpm run build && pnpm -r demo:start",
+    "demo:build": "pnpm -r demo:build",
     "dev": "pnpm exec vite",
     "build": "pnpm exec vite build"
   },
