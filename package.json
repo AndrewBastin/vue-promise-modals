@@ -4,6 +4,7 @@
   "description": "A Vue 3 library to create modals that are resolved with promises.",
   "keywords": ["vue", "dialog", "modals"],
   "author": "Andrew Bastin (andrewbastin.k@gmail.com)",
+  "homepage": "https://github.com/AndrewBastin/vue-promise-modals",
   "license": "MIT",
   "type": "module",
   "files": [
