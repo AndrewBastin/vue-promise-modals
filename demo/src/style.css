@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background: #191919;
+  color: #d4d4d4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+#app {
+  margin: 2rem;
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+}
+
+header > h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
+
+.shiki {
+  padding: 1.5em;
+  border-radius: 0.8em;
+  font-family: 'Fira Code', monospace;
+}
+
+pre {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  overflow: x-scroll;
+}
+
+.code-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  background: #121212;
+  border-radius: 0.1em;
+  padding: 0.1em 0.3em;
+  font-family: monospace;
+  color: #cb7676;
+}
+
+.demo-button {
+  cursor: pointer;
+  background: transparent;
+  color: #d4d4d4;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 1em 0.5em;
+}
+
+footer {
+  background: black;
+  width: 100%;
+  text-align: center;
+}
+
+footer > p > a {
+  color: #d4d4d4;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 1em 0.5em;
+
+  &:hover {
+    color: #cb7676;
+  }
+}
+
+dialog {
+  background: #252525;
+  border: none;
+  color: #d4d4d4;
+  min-width: 50%;
+  border-radius: 0.5em;
+  padding: 1em 1.5em;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog-header > h2 {
+  margin: 0;
+}
+
+.dialog-close {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #d4d4d4;
+}
+
+.dialog-close > svg {
+  width: 1.8em;
+  height: 1.8em;
+}

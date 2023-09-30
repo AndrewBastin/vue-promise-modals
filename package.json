@@ -1,0 +1,33 @@
+{
+  "name": "vue-promise-modals",
+  "version": "0.1.0",
+  "description": "A Vue 3 library to create modals that are resolved with promises.",
+  "author": "Andrew Bastin (andrewbastin.k@gmail.com)",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/vue-promise-modals.es.js",
+  "main": "./dist/vue-promise-modals.es.js",
+  "exports": {
+    ".": "./dist/vue-promise-modals.es.js"
+  },
+  "types": "./dist/vue-promise-modals.es.d.ts",
+  "scripts": {
+    "demo": "pnpm run build && pnpm -r demo:start",
+    "dev": "pnpm exec vite",
+    "build": "pnpm exec vite build"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.0",
+    "vue-tsc": "^1.8.5"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}
