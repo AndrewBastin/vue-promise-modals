@@ -42,6 +42,7 @@ header > h1 {
   padding: 1.5em;
   border-radius: 0.8em;
   font-family: 'Fira Code', monospace;
+  white-space: pre-wrap;
 }
 
 pre {
