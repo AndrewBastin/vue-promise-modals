@@ -18,6 +18,7 @@
   "scripts": {
     "demo": "pnpm run build && pnpm -r demo:start",
     "demo:build": "pnpm -r demo:build",
+    "prepare": "pnpm run build",
     "dev": "pnpm exec vite",
     "build": "pnpm exec vite build"
   },
