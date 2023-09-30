@@ -2,6 +2,7 @@
   "name": "vue-promise-modals",
   "version": "0.1.0",
   "description": "A Vue 3 library to create modals that are resolved with promises.",
+  "keywords": ["vue", "dialog", "modals"],
   "author": "Andrew Bastin (andrewbastin.k@gmail.com)",
   "license": "MIT",
   "type": "module",
@@ -20,7 +21,6 @@
     "dev": "pnpm exec vite",
     "build": "pnpm exec vite build"
   },
-  "keywords": [],
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "typescript": "^5.2.2",
