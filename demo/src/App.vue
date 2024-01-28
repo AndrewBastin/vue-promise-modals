@@ -8,6 +8,7 @@
       <span class="code-text">vue-promise-modals</span> is a simple Vue 3 plugin for opening modals using promises while
       maintaining type safety and inference.
     </p>
+    <br /> <br />
     <h1>
       Installation
     </h1>
@@ -21,7 +22,7 @@
         <p>Install the plugin on the Vue app</p>
         <pre v-code="'javascript'">import App from "./App.vue"
 import { createApp } from "vue"
-import VuePromiseModalsPlugin from "vue-promise-modals"
+import { plugin } from "vue-promise-modals"
 
 createApp(App)
   .use(VuePromiseModalsPlugin, {
@@ -99,6 +100,13 @@ async function openDialog() {
 &lt;/script&gt;</pre>
       </li>
     </ul>
+    <h2>Transitions</h2>
+    <p>
+      Transition animations can be applied to the modals by passing in the options in the
+      <span class="code-text">vue-promise-modals</span> Vue plugin. The plugin options follow
+      the same options as the props accepted by the
+      <a href="https://vuejs.org/api/built-in-components.html#transitiongroup">Vue <span class="code-text">TransitionGroup</span> element</a>.
+    </p>
     <h1>Demo</h1>
     <p>
       <div>
