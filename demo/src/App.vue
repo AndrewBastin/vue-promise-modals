@@ -35,7 +35,11 @@ createApp(App)
   ...
   &lt;DialogHost /&gt;
   ...
-&lt;/template&gt;</pre>
+&lt;/template&gt;
+&lt;script&gt;
+  import { DialogHost } from "vue-promise-modals"
+&lt;/script&gt;
+</pre>
       </li>
     </ul>
     </p>
